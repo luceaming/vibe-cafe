@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     try {
       // -----------------------------------------------------------------------
-      // 7-9. Supabase의 cafe_menu03 테이블에 주문 저장 (insert)
+      // 7-9. Supabase의 order 테이블에 주문 저장 (insert)
       // 열 목록: customer_name, phone, drink, drink_price, size, options(배열), quantity, request, total_price
       // -----------------------------------------------------------------------
       if (!supabaseClient) {
@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const { data, error } = await supabaseClient
-        .from('cafe_menu03')
+        .from('order')
         .insert([
           {
             customer_name: userName,
