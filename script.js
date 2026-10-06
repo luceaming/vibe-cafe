@@ -8,8 +8,8 @@
 // [Supabase 설정]
 // - 아래 상수에 본인의 Supabase Project URL과 Anon API Key를 직접 입력해주세요.
 // -----------------------------------------------------------------------------
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-const SUPABASE_KEY = 'YOUR_SUPABASE_KEY';
+const SUPABASE_URL = 'https://hbuxlaxupfvfujdlnale.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhidXhsYXh1cGZ2ZnVqZGxuYWxlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEyMzYxOTUsImV4cCI6MjEwNjgxMjE5NX0.o9eG5qFazEyHSJkSy5S-rALNB2G5GpLck8SUwPr3ygM';
 
 // supabase-js 클라이언트 객체 초기화 (변수명: supabaseClient)
 // CDN을 통해 로드된 window.supabase 객체를 사용해 클라이언트를 생성합니다.
